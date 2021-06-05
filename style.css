@@ -1,0 +1,162 @@
+#header {	/*Верхня панель*/
+  width: 100%;/*Ширина панели*/
+  height: 60px;/*Высота панели*/
+  font-size: 30px;/*Размер шрифта*/
+  color: #FFFFFF;/*Цвет текста*/
+  background: linear-gradient(to top, #031F5A, #34799F);/*Цвет*/
+}
+
+#header img {/*Картинка ауди в верхней панеле */
+	width: 80px;/*Ширина картинки*/
+	height: 50px; /*Высота картинки*/
+	float: right; /* Обтекание по правому краю */
+	right: 60px; /* Отступ справа */
+	margin-top: 9px;/* Отступ сверху */
+}
+
+#button {/*Кнопки в верхней панеле */
+  background: linear-gradient(to top, #11396E, #3577A1);/*Цвет*/
+  height: 35px;/*Высота кнопки*/
+  width: 105px; /*Ширина кнопки*/
+  margin-top: 15px;/* Отступ сверху */
+  border-radius: 10px;/*Закруглённые углы*/
+  color: #FAFCFF;/*Цвет текста*/
+  font-weight: bolder;/*Жирный шрифт*/
+  font-size: 20px;/*Размер шрифта*/
+  position: absolute;  /* Абсолютное позиционирование */
+}
+/*горизонтальная ориентация*/
+@media(min-width: 1400px) {#button { margin-left: 150px;}}
+@media(min-width: 1224px) and (max-width: 1399px){#button {width: 90px; height: 30px; font-size: 10px; margin-left:200px;}}
+@media(min-width: 992px) and (max-width: 1223px){#button  {width: 75px; height: 30px; font-size: 10px; margin-left:200px;}}
+@media(min-width: 768px) and (max-width: 991px){#button   {width: 60px; height: 30px; font-size: 9px;  margin-left:150px;}}
+@media(min-width: 320px) and (max-width: 767px){#button   {width: 41px; height: 30px; font-size: 7px;  margin-left:100px;}}
+
+#one {/*машинка*/
+	background-image: url(https://auto.ironhorse.ru/wp-content/uploads/2020/07/S6-C8-front.jpg);  /*Добавляем фоновое изображение*/
+  background-size: cover; /*Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока*/
+	height: 900px;/*Высота блока*/
+  width: 100%;/*Ширина блока*/
+}
+/*горизонтальная ориентация*/
+@media(min-width: 1400px) {#one {height: 900px;}}
+@media(min-width: 1224px) and (max-width: 1399px){#one {height: 700px;}}
+@media(min-width: 992px) and (max-width: 1223px){#one { height: 600px;}}
+@media(min-width: 768px) and (max-width: 991px){#one { height: 500px;}}
+@media(min-width: 320px) and (max-width: 767px){#one {  height: 400px;}}
+#oneElement {/*Первая фигура для информации*/
+  background: linear-gradient(to left, #9BBE3F, #889D61);/*Цвет фона*/
+  opacity: 0.8;/*Прозрачность поля*/
+  width: 26em;/*Ширина поля*/
+  height: 10em;/*Высота поля*/
+  border: 3px solid #022D6B;/*Параметры рамки*/
+  border-radius:  35px 0 35px 0;/*Закруглённые углы*/
+  margin-left: 70px;/* Левая граница элементов */
+  position: absolute;  /* Абсолютное позиционирование */
+  top: 120px;/* Положение от верхнего края */
+  color: #000640;/*Цвет текста*/
+  position: absolute;/* Абсолютное позиционирование */
+}
+
+#Square { /*Квадраты для информации*/
+  background: linear-gradient(to top, #031F5A, #34799F);/*Цвет фона*/
+  border: 3px solid #022D6B;/*Параметры рамки*/
+  font-size: 14px;/*Размер шрифта*/
+  width: 17em;/*Ширина поля*/
+  height: 20em;/*Высота поля*/
+  text-align: center;/*Текст выровнен по центру*/
+  color:#FFFFFF;/*Цвет текста*/
+  border-radius: 20px;/*Закруглённые углы*/
+  top: 850px; /* Положение от верхнего края */
+  position: relative;  /* Позиционируется относительно своего нормального положения */
+  margin-left: 180px; /* Левая граница элементов*/
+}
+/*горизонтальная ориентация*/
+@media(min-width: 1400px) {#Square { top: 850px;}}
+@media(min-width: 1224px) and (max-width: 1399px){#Square {top: 700px; width: 16em; height: 22em; font-size: 10px; }}
+@media(min-width: 992px) and (max-width: 1223px){#Square { top: 580px; width: 15em; height: 23em; font-size: 10px;}}
+@media(min-width: 768px) and (max-width: 991px){#Square {  top: 480px; width: 14em; height: 24em; font-size: 9px; margin-left: 60px}}
+@media(min-width: 320px) and (max-width: 767px){#Square {  top: 390px; width: 11em; height: 28em; font-size: 8px; margin-left: 25px}}
+
+#buttontwo {/*Кнопки "Детальніше"*/
+  background: linear-gradient(to top, #06245E, #0E3369);/*Цвет*/
+	height: 40px;/*Высота поля*/
+	width: 150px;/*Ширина поля*/
+  border-radius: 5px;/*Закруглённые углы*/
+  color: #FF0000;/*Цвет текста*/
+  font-weight: bolder;/*Жирный шрифт*/
+  font-size: 20px;/*Размер шрифта*/
+  top: 200px;/* Положение от верхнего края */
+  position: relative;  /*Позиционируется относительно своего нормального положения */
+  float:left; /*--*/
+  margin-left: 40px;/*Левая граница элементов*/
+}
+/*горизонтальная ориентация*/
+@media(min-width: 1400px) {#buttontwo {top: 200px;}}
+@media(min-width: 1224px) and (max-width: 1399px){#buttontwo {width: 130px; height: 40px; font-size: 10px;top: 160px;margin-left: 10px }}
+@media(min-width: 992px) and (max-width: 1223px){#buttontwo { width: 130px; height: 30px;; font-size: 10px;top: 190px;margin-left: 10px}}
+@media(min-width: 768px) and (max-width: 991px){#buttontwo { width: 100px; height: 20px; font-size: 10px; top: 180px;margin-left: 10px}}
+@media(min-width: 320px) and (max-width: 767px){#buttontwo {  width: 75px; height: 20px; font-size: 8px;  top: 195px;margin-left: 5px}}
+
+#black {
+  background: linear-gradient(to left, #080F0F, #383938);/*Цвет*/
+	width: 100%;/*Ширина поля*//*Ширина поля*//*Ширина поля*/
+	height: 70px;/*Высота поля*/
+}
+
+#red {
+  background: linear-gradient(to left, #BC0F0F, #F63F3E);/*Цвет*/
+	width: 100%;/*Ширина поля*//*Ширина поля*/
+	height: 70px;/*Высота поля*/
+}
+
+#yellow {
+  background: linear-gradient(to left, #D1D110, #E0E01F);/*Цвет*/
+	width: 100%;/*Ширина поля*/
+	height: 70px;/*Высота поля*/
+}
+
+#two {/*two car*/
+	background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/7/28/754836908525287.jpg); /*Добавляем фоновое изображение*/
+  background-size: cover;/*Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока*/
+	width: 100%;/*Ширина блока*/
+	height: 900px;/*Высота блока*/
+}
+/*горизонтальная ориентация*/
+@media(min-width: 1400px) {#two {height: 900px;}}
+@media(min-width: 1224px) and (max-width: 1399px){#two {height: 700px;}}
+@media(min-width: 992px) and (max-width: 1223px){#two {height: 600px;}}
+@media(min-width: 768px) and (max-width: 991px){#two {height: 500px;}}
+@media(min-width: 320px) and (max-width: 767px){#two {height: 400px;}}
+
+#twoElement {/*Вторая фигура для информации*/
+  width: 20em;/*Ширина поля*/
+  height: 20em;/*Высота поля*/
+  border: 3px solid #022D6B;/*Параметры рамки*/
+  line-height: 2em;/*расстояние между строками */
+  position: absolute;  /* Абсолютное позиционирование */
+  color: #000000;/*Цвет текста*/
+  left: 100px; /*Отступ слева*/
+  top: 1500px; /* Отступ сверху */
+  border-radius: 50%;/*Определяет радиус углов элемента*/
+  overflow: visible;/*Видно текст , если выходит за границы*/
+  background: #8599be; /*Цвет*/
+  opacity: 0.7;/*Прозрачность поля*/
+}
+/*горизонтальная ориентация*/
+@media(min-width: 1400px) {#twoElement {top: 1300px;}}
+@media(min-width: 1224px) and (max-width: 1399px){#twoElement {top: 1000px;}}
+@media(min-width: 992px) and (max-width: 1223px){#twoElement {top: 900px;}}
+@media(min-width: 768px) and (max-width: 991px){#twoElement {top: 800px;}}
+@media(min-width: 320px) and (max-width: 767px){#twoElement {top: 700px;}}
+
+#end {
+  background: #060608; /*Цвет*/
+  color: #FFFFFF;/*Цвет текста*/
+  width: 100%;/*Ширина поля*/
+  height: 100px;/*Высота поля*/
+  text-align: left;/*Текст выровнен по левой стороне*/
+  list-style-type: none;/*список без кружочков*/
+}
+
+
